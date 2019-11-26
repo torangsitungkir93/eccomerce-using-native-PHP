@@ -1,0 +1,355 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background: #f0f0f0;
+    overflow-x: hidden;
+}
+
+#mycarousel {
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+}
+
+.main-content {
+    width: 100%;
+    height: max-content;
+    margin-top: 40px;
+    /* background: red; */
+}
+
+
+/* Kontent Film terbaru */
+.daftar-film-baru {
+    width: 100%;
+    height: max-content;
+    margin-top: 150px;
+    /* background: greenyellow; */
+}
+
+footer {
+    clear: both;
+}
+
+.spasi_div {
+    clear: both;
+    display: flexbox;
+    height: 50px;
+
+}
+
+.daftar-terbaru {
+    background: #ffffff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+}
+
+.daftar-terbaru2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.daftar-terbaru>h2 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+.daftar-kategori {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    /* background: tomato; */
+}
+
+.daftar-kategori2 {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    /* background: rebeccapurple; */
+}
+
+.kat {
+    margin-right: 20px;
+}
+
+.daftar-film1 {
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    height: 1000px;
+    /* background: rebeccapurple; */
+}
+
+.daftar-film2 {
+    margin-left: 55px;
+    /* background: seagreen; */
+}
+
+.kotak-film {
+    background: white;
+    width: 300px;
+    height: 425px;
+    float: left;
+    margin: 5px;
+}
+
+.kotak-film:hover {
+    border: 2px solid lightgreen;
+}
+
+.kotak-film>.kotak-film-pilihan {
+    width: max-content;
+    margin: auto;
+}
+
+.kotak-film>a>img {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.kotak-film>p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* 3======================================D */
+/* Edit menu shop */
+/* 3======================================D */
+
+.footer {
+    padding-top: 15px;
+    padding-left: 200px;
+    color: white;
+    background-color: rgb(34, 36, 36);
+}
+
+.linkfooter {
+    color: orangered;
+}
+
+.floatfooter {
+    list-style-type: none;
+    float: left;
+}
+
+.kategori_film {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-top: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+    /* background-color: cadetblue; */
+}
+
+.daftar_film {
+    width: 100%;
+    height: max-content;
+    /* margin-top: 150px; */
+}
+
+.tulisan_kategori {
+    background: #ffffff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+}
+
+.tulisan_kategori2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.back_daftar_film {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    height: 1000px;
+    /* background-color: red; */
+}
+
+.back_daftar_film2 {
+    margin-left: 50px;
+}
+
+.kotak_film_berada {
+    background: white;
+    width: 310px;
+    height: 450px;
+    float: left;
+    margin: 5px;
+}
+
+.kotak_film_berada:hover {
+    border: 2px solid gold;
+}
+
+.kotak_pilihan_user {
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    /* background-color: red; */
+}
+
+.teks_harga {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.gambar {
+    width: 200px;
+    margin: auto;
+    margin-top: 25px;
+    /* background-color: red; */
+}
+
+/* ==================================== */
+/* 3===D Menu Registrasi 3===D */
+/* ==================================== */
+
+.tulisan_awal {
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+    border-bottom: 2px solid #808080;
+}
+
+.kotak_register {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    /* background-color: blue; */
+}
+
+.garis {
+    height: 3px;
+    margin-bottom: 20px;
+    background-color: #808080
+}
+
+.tulisan_cart {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.kotak_cart {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.tabel_keranjang {
+    width: 65%;
+    margin: auto;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.gambar_cart {
+    text-align: center;
+}
+
+/* ==================================== */
+/* 3===D Details 3===D */
+/* ==================================== */
+
+.tulisan_detail {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.kotak_detail {
+    margin-left: 270px;
+    margin-right: 270px;
+    padding-bottom: 50px;
+    /* background-color: red; */
+}
+
+.kotak_detail_kiri {
+    float: left;
+    width: 30%;
+}
+
+.kotak_detail_kanan {
+    float: right;
+    width: 70%;
+}
+
+.gambar_detail {
+    width: 200px;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.judul_detail {
+    border-bottom: 2px solid #808080;
+}
+
+/* ==================================== */
+/* 3===D Form Belanja 3===D */
+/* ==================================== */
+
+.form_belanja {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.kotak_form {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.rincian {
+    /* background-color: red; */
+    height: 300px;
+}
+
+.btn-data-penerima {
+    margin-left: 45%;
+}
+
+/* ==================================== */
+/* 3===D Riwayat Pembelian 3===D */
+/* ==================================== */
+
+.riwayat {
+    text-align: center;
+}
+
+.tabel_terbeli {
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.tabel_tertunda {
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+
+}

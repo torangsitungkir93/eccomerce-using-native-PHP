@@ -1,0 +1,65 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Untuk Menu Navigasi */
+.active_line {
+    text-decoration: underline coral;
+}
+
+/* Style untuk Menu Tambah Film */
+
+.tambah_film {
+    width: 70%;
+    margin: auto;
+}
+
+.form_daftar {
+    background: whitesmoke;
+    border: 2px solid coral;
+}
+
+/* Rifkky */
+/* Menu Data User */
+
+.kotak_data_user {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Menu Data Pending */
+
+.kotak_data_pending {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* .data_gambar {
+    text-align: center;
+} */
+
+/* Menu Data Sukses */
+
+.kotak_data_sukses {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Menu Data Edit User */
+
+.kotak_data_edit_user {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Menu Home */
+
+.kotak_home {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
